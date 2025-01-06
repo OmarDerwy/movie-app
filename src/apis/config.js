@@ -1,12 +1,14 @@
 import axios from "axios";
 
+const apikey = import.meta.env.API_KEY;
+
 const axiosInstance = axios.create({
    baseURL: import.meta.env.VITE_API_BASE_URL,
 })
 
 axiosInstance.interceptors.request.use(function (config) {
     // Do something before request is sent
-    config.headers.Authorization = import.meta.env.API_KEY;
+    config.headers.Authorization = `Bearer ${apikey}`
     return config;
   }, function (error) {
     // Do something with request error
