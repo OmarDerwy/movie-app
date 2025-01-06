@@ -6,7 +6,7 @@ const axiosInstance = axios.create({
 
 axiosInstance.interceptors.request.use(function (config) {
     // Do something before request is sent
-    config.headers.Authorization = import.meta.env.API_KEY;
+    config.headers.Authorization = process.env.API_KEY;
     return config;
   }, function (error) {
     // Do something with request error
