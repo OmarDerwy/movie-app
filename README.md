@@ -1,8 +1,10 @@
-# React + Vite
+# This was made in just 1 day while I was learning React's principals.
+# Movie Catalogue app
+A web app frontend that shows the most popular movies at the frontpage. It shows release-date, movie description, rating and cover. There is also search functionalities and it searches most known movies. It provides wishlisting functionalities where it allows the user to pick any movie and add it to their wishilist page.
+# technologies
+- React
+- Axios
+- Bootstrap
+# Youtube Preview
+[Watch here](https://www.youtube.com/watch?v=ErojdPF-NqI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
